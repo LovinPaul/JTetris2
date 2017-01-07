@@ -271,7 +271,7 @@ public class Gui {
         quitBut = new JButton("Quit");
         //NewGame
         campaignBut = new JButton("Campaign");
-        continousGameBut = new JButton("Continous");
+        continousGameBut = new JButton("Continuous");
         challengeBut  = new JButton("Challenge");
         freeGameBut = new JButton("Free Game");
         backNewGameBut = new JButton("Back");
@@ -545,7 +545,7 @@ public class Gui {
         mainMenuPanel.add(backSettingsBut);
         mainMenuPanel.add(tabbedPane);
         tabbedPane.addTab("Sound", musicPanel);
-        tabbedPane.addTab("HotKey", hotKeyPanel);
+        tabbedPane.addTab("Input", hotKeyPanel);
         tabbedPane.addTab("Skin", skinPanel);
 
 
